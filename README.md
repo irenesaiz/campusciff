@@ -148,26 +148,25 @@ git push origin master
 ### 2.22 CUENTA DE GITHUB
 1. Poner una foto en vuestro perfil de GitHub. __*REALIZADO*__
 2. Poner el doble factor de autentificación en vuestra cuenta de GitHub. __*REALIZADO*__
-3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
+3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador. __*REALIZADO*__
 
 ### 2.23 USO SOCIAL DE GITHUB
-1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles.
-2. Seguir los repositorios campusciff del resto de tus compañeros.
-3. Añadir una estrella a los repositorios campusciff del resto de tus compañeros.
+1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles. __*REALIZADO*__
+2. Seguir los repositorios campusciff del resto de tus compañeros. __*REALIZADO*__
+3. Añadir una estrella a los repositorios campusciff del resto de tus compañeros. __*REALIZADO*__
 
 ### 2.24 CREAR UNA TABLA
-1. Crear una tabla de este estilo en el fichero README.md con la información de varios de tus
-compañeros de clase:
-NOMBRE GITHUB
-Nombre del compañero 1
-Nombre del compañero 2
-Nombre del compañero 3
-enlace a github 1
-enlace a github 1
-enlace a github 3
+1. Crear una tabla de este estilo en el fichero README.md con la información de varios de tus compañeros de clase:
+
+| NOMBRE | GITHUB |
+| ------ | -----: |
+| Amalia Suárez García | [asuarezg](https://github.com/asuarezg) |
+| Francisco Federico Solana Pérez | [ffsolana](https://github.com/ffsolana) |
+| Paola López | [plopez76]https://github.com/plopez76 |
+
 
 ### 2.25 COLABORADORES
-1. Poner a github.com/asanzdiego como colaborador del repositorio campusciff
+1. Poner a github.com/asanzdiego como colaborador del repositorio campusciff  __*REALIZADO*__
 
 ### 2.26 CREAR UNA ORGANIZACIÓN
 1. Crear una organización llamada campuscifftunombredeusuariodegithub
