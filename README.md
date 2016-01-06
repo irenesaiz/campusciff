@@ -5,7 +5,9 @@ Crear un repositorio en vuestro GitHub llamado campusciff.
 
 Clonar vuestro repositorio en local.
 
-`git clone git@github.com:irenesaiz/campusciff.git`
+`
+git clone git@github.com:irenesaiz/campusciff.git
+`
 
 ### 2.3 README
 Crear (si no lo habéis creado ya) en vuestro repositorio local un documento README.md.
@@ -20,41 +22,25 @@ Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inici
  
 ### 2.5 PUSH INICIAL
 Subir los cambios al repositorio remoto.
-$ git add .
-
-$ git commit -m "commit inicial"
-$ git push origin master
+`
+git add .
+git commit -m "commit inicial"
+git push origin master
+`
 
 ### 2.6 IGNORAR ARCHIVOS
 1. Crear en el repositorio local un fichero llamado privado.txt.
 2. Crear en el repositorio local una carpeta llamada privada.
-1. Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git.
+3. Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git.
 
- 
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ touch privado.txt
-
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ mkdir privada
-
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ echo privado.txt > .gitignore
-
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ car .gitignore
-bash: car: command not found
-
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ cat .gitignore
-privado.txt
-
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ echo privada >> .gitignore
-
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ cat .gitignore
-privado.txt
-privada
+` 
+touch privado.txt
+mkdir privada
+echo privado.txt > .gitignore
+cat .gitignore
+echo privada >> .gitignore
+cat .gitignore
+`
 
 ### 2.8 AÑADIR FICHERO 1.TXT
 1. Añadir fichero 1.txt al repositorio local.
