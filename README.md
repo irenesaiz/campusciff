@@ -146,8 +146,8 @@ git push origin master
 `git log --oneline --decorate --graph`
  
 ### 2.22 CUENTA DE GITHUB
-1. Poner una foto en vuestro perfil de GitHub.
-2. Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+1. Poner una foto en vuestro perfil de GitHub. *OK*
+2. Poner el doble factor de autentificación en vuestra cuenta de GitHub. *OK*
 3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
 
 ### 2.23 USO SOCIAL DE GITHUB
