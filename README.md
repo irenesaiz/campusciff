@@ -96,7 +96,7 @@ git add .
 git commit -m "Hola en 1.txt"
 ```
 
-1. Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
+2. Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
 ```
 git checkout v0.2
 vi 1.txt
@@ -105,7 +105,7 @@ git add .
 git commit -m "Adios en 1.txt"
 ```
 
-1.	Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
+3.	Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
 ```
 git checkout master
 git merge v0.2
@@ -113,18 +113,82 @@ git merge v0.2
 
 ### 2.18 LISTADO DE RAMAS
 1. Listar las ramas con merge y las ramas sin merge.
+
+```
+git branch --merged
+git branch --no-merged
+
+```
  
 ### 2.19 ARREGLAR CONFLICTO
 1. Arreglar el conflicto anterior y hacer un commit.
-
+```
+vi 1.txt
+git add .
+git commit -m "Sin conflicto en 1.txt"
+git push origin master
+```
  
  
 ### 2.20 BORRAR RAMA
 1. Crear un tag v0.2
+`git tag v0.2`
 2. Borrar la rama v0.2
- 
+```
+git branch -d v0.2
+git push origin master
+``` 
+
+
 ### 2.21 LISTADO DE CAMBIOS
 1. Listar los distintos commits con sus ramas y sus tags.
+
+`git log --oneline --decorate --graph`
  
 ### 2.22 CUENTA DE GITHUB
+1. Poner una foto en vuestro perfil de GitHub.
+2. Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
+
+### 2.23 USO SOCIAL DE GITHUB
+1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles.
+2. Seguir los repositorios campusciff del resto de tus compañeros.
+3. Añadir una estrella a los repositorios campusciff del resto de tus compañeros.
+
+### 2.24 CREAR UNA TABLA
+1. Crear una tabla de este estilo en el fichero README.md con la información de varios de tus
+compañeros de clase:
+NOMBRE GITHUB
+Nombre del compañero 1
+Nombre del compañero 2
+Nombre del compañero 3
+enlace a github 1
+enlace a github 1
+enlace a github 3
+
+### 2.25 COLABORADORES
+1. Poner a github.com/asanzdiego como colaborador del repositorio campusciff
+
+### 2.26 CREAR UNA ORGANIZACIÓN
+1. Crear una organización llamada campuscifftunombredeusuariodegithub
+
+### 2.27 CREAR EQUIPOS
+1. Crear 2 equipos en la organización campuscifftunombredeusuariodegithub, uno llamado administradores con más permisos y otro colaboradores con menos permisos.
+2. Meter a y a 2 de vuestros compañeros de clase en el equipo
+administradores.
+3. Meter a y a otros 2 de vuestros compañeros de clase en el equipo
+colaboradores.
+
+### 2.28 CREAR UN INDEX.HTML
+1. Crear un index.html que se pueda ver como página web en la organización.
+
+### 2.29 CREAR PULL-REQUESTS
+1. Hacer 2 forks de 2 repositorios campuscifftunombredeusuariodegithub. github.io de 2
+organizaciones de las que no seais ni administradiores ni colaboradores.
+2. Crearos una rama en cada fork.
+3. En cada rama modificar el fichero index.html añadiendo vuestro nombre.
+4. Con cada rama hacer un pull-request.
+
+### 2.30 GESTIONAR PULL-REQUESTS
+1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
 
