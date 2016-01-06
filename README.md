@@ -14,9 +14,7 @@ Notas: en este documento tendréis que ir poniendo los comandos que habéis teni
 ### 2.4 COMMIT INICIAL
 Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inicial con el mensaje commit inicial.
 
- 
-
- 
+`vim README.md`
  
 ### 2.5 PUSH INICIAL
 Subir los cambios al repositorio remoto.
@@ -76,7 +74,8 @@ touch 2.txt
 ### 2.13 CREAR RAMA REMOTA V0.2
 1. Subir los cambios al repositorio remoto.
 ```
-git commit -m "Añadido ### 2.txt"
+git add .
+git commit -m "Añadido 2.txt"
 git push origin v0.2
 ```
 
@@ -91,9 +90,26 @@ git merge v0.2
 
 ### 2.15 MERGE CON CONFLICTO
 1. En la rama master poner Hola en el fichero 1.txt y hacer commit.
-1. Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
-1.	Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
+```
+vim 1.txt
+git add .
+git commit -m "Hola en 1.txt"
+```
 
+1. Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
+```
+git checkout v0.2
+vi 1.txt
+cat 1.txt
+git add .
+git commit -m "Adios en 1.txt"
+```
+
+1.	Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
+```
+git checkout master
+git merge v0.2
+```
 
 ### 2.18 LISTADO DE RAMAS
 1. Listar las ramas con merge y las ramas sin merge.
