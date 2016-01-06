@@ -180,11 +180,10 @@ git push origin master
 1. Crear un index.html que se pueda ver como página web en la organización. __*REALIZADO*__
 
 ### 2.29 CREAR PULL-REQUESTS
-1. Hacer 2 forks de 2 repositorios campuscifftunombredeusuariodegithub. github.io de 2
-organizaciones de las que no seais ni administradiores ni colaboradores.
-2. Crearos una rama en cada fork.
-3. En cada rama modificar el fichero index.html añadiendo vuestro nombre.
-4. Con cada rama hacer un pull-request.
+1. Hacer 2 forks de 2 repositorios campuscifftunombredeusuariodegithub. github.io de 2 organizaciones de las que no seais ni administradiores ni colaboradores. __*REALIZADO*__
+2. Crearos una rama en cada fork. __*REALIZADO*__
+3. En cada rama modificar el fichero index.html añadiendo vuestro nombre. __*REALIZADO*__
+4. Con cada rama hacer un pull-request. __*REALIZADO*__
 
 ### 2.30 GESTIONAR PULL-REQUESTS
 1. Aceptar los pull-request que lleguen a los repositorios de tu organización. __*REALIZADO*__
