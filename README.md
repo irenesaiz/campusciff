@@ -22,11 +22,11 @@ Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inici
  
 ### 2.5 PUSH INICIAL
 Subir los cambios al repositorio remoto.
-`
+```
 git add .
 git commit -m "commit inicial"
 git push origin master
-`
+```
 
 ### 2.6 IGNORAR ARCHIVOS
 1. Crear en el repositorio local un fichero llamado privado.txt.
