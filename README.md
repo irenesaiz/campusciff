@@ -1,7 +1,7 @@
 # Práctica GIT
 
 ### 2.1 REPOSITORIO CAMPUSCIFF
-Crear un repositorio en vuestro GitHub llamado campusciff.
+Crear un repositorio en vuestro GitHub llamado campusciff. __*REALIZADO*__
 
 Clonar vuestro repositorio en local.
 
@@ -146,8 +146,8 @@ git push origin master
 `git log --oneline --decorate --graph`
  
 ### 2.22 CUENTA DE GITHUB
-1. Poner una foto en vuestro perfil de GitHub. *OK*
-2. Poner el doble factor de autentificación en vuestra cuenta de GitHub. *OK*
+1. Poner una foto en vuestro perfil de GitHub. __*REALIZADO*__
+2. Poner el doble factor de autentificación en vuestra cuenta de GitHub. __*REALIZADO*__
 3. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
 
 ### 2.23 USO SOCIAL DE GITHUB
