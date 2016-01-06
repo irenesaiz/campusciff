@@ -162,24 +162,22 @@ git push origin master
 | ------ | -----: |
 | Amalia Suárez García | [asuarezg](https://github.com/asuarezg) |
 | Francisco Federico Solana Pérez | [ffsolana](https://github.com/ffsolana) |
-| Paola López | [plopez76]https://github.com/plopez76 |
+| Paola López | [plopez76](https://github.com/plopez76) |
 
 
 ### 2.25 COLABORADORES
 1. Poner a github.com/asanzdiego como colaborador del repositorio campusciff  __*REALIZADO*__
 
 ### 2.26 CREAR UNA ORGANIZACIÓN
-1. Crear una organización llamada campuscifftunombredeusuariodegithub
+1. Crear una organización llamada campusciff-tunombredeusuariodegithub (campusciff-irenesaiz)  __*REALIZADO*__
 
 ### 2.27 CREAR EQUIPOS
-1. Crear 2 equipos en la organización campuscifftunombredeusuariodegithub, uno llamado administradores con más permisos y otro colaboradores con menos permisos.
-2. Meter a y a 2 de vuestros compañeros de clase en el equipo
-administradores.
-3. Meter a y a otros 2 de vuestros compañeros de clase en el equipo
-colaboradores.
+1. Crear 2 equipos en la organización campuscifftunombredeusuariodegithub, uno llamado administradores con más permisos y otro colaboradores con menos permisos. __*REALIZADO*__
+2. Meter a github.com/asanzdiego y a 2 de vuestros compañeros de clase en el equipo administradores. __*REALIZADO*__
+3. Meter a github.com/asanzdiego y a otros 2 de vuestros compañeros de clase en el equipo colaboradores. __*REALIZADO*__
 
 ### 2.28 CREAR UN INDEX.HTML
-1. Crear un index.html que se pueda ver como página web en la organización.
+1. Crear un index.html que se pueda ver como página web en la organización. __*REALIZADO*__
 
 ### 2.29 CREAR PULL-REQUESTS
 1. Hacer 2 forks de 2 repositorios campuscifftunombredeusuariodegithub. github.io de 2
@@ -189,5 +187,5 @@ organizaciones de las que no seais ni administradiores ni colaboradores.
 4. Con cada rama hacer un pull-request.
 
 ### 2.30 GESTIONAR PULL-REQUESTS
-1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
+1. Aceptar los pull-request que lleguen a los repositorios de tu organización. __*REALIZADO*__
 
