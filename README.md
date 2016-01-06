@@ -5,9 +5,7 @@ Crear un repositorio en vuestro GitHub llamado campusciff.
 
 Clonar vuestro repositorio en local.
 
-`
-git clone git@github.com:irenesaiz/campusciff.git
-`
+`git clone git@github.com:irenesaiz/campusciff.git`
 
 ### 2.3 README
 Crear (si no lo habéis creado ya) en vuestro repositorio local un documento README.md.
@@ -33,71 +31,70 @@ git push origin master
 2. Crear en el repositorio local una carpeta llamada privada.
 3. Realizar los cambios oportunos para que tanto el archivo como la carpeta sean ignorados por git.
 
-` 
+```
 touch privado.txt
 mkdir privada
 echo privado.txt > .gitignore
 cat .gitignore
 echo privada >> .gitignore
 cat .gitignore
-`
+```
 
 ### 2.8 AÑADIR FICHERO 1.TXT
 1. Añadir fichero 1.txt al repositorio local.
-$ touch 1.txt
-
- 
-
- 
-
-Irene@Irene-PC MINGW64 /d/practicaGIT/campusciff (master)
-$ git add .
-$ git commit -m "Añadido gitignore y 1.txt"
-
+```
+touch 1.txt
+git add .
+git commit -m "Añadido gitignore y 1.txt"
+```
 
 ### 2.9 CREAR EL TAG V0.1
 1. Crear un tag v0.1.
- 
+``` 
 git tag v0.1
+```
 ### 2.10 SUBIR EL TAG V0.1
 1. Subir los cambios al repositorio remoto.
+```
 git push --tag origin master
-
+```
  
 ### 2.11 CREAR UNA RAMA V0.2
-1. Crear una rama v0.### 2.
-### 2. Posiciona tu carpeta de trabajo en esta rama.
+1. Crear una rama v0.2.
+2. Posiciona tu carpeta de trabajo en esta rama.
 
- 
-$ git branch v0.2
-$ git checkout v0.2
+```
+git branch v0.2
+git checkout v0.2
+```
 
 ### 2.12 AÑADIR FICHERO 1.TXT
-1. Añadir un fichero ### 2.txt en la rama v0.### 2.
- 
-touch ### 2.txt
+1. Añadir un fichero 2.txt en la rama v0.2.
+```
+touch 2.txt
+```
 ### 2.13 CREAR RAMA REMOTA V0.2
 1. Subir los cambios al repositorio remoto.
- 
+```
 git commit -m "Añadido ### 2.txt"
 git push origin v0.2
-
+```
 
 ### 2.14 MERGE DIRECTO
 1. Posicionarse en la rama master.
-### 2. Hacer un merge de la rama v0.2 en la rama master.
+2. Hacer un merge de la rama v0.2 en la rama master.
  
-
+```
 git checkout master
 git merge v0.2
+```
 
 ### 2.15 MERGE CON CONFLICTO
 1. En la rama master poner Hola en el fichero 1.txt y hacer commit.
- 
 1. Posicionarse en la rama v0.2 y poner Adios en el fichero "1.txt" y hacer commit.
- 
 1.	Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
- 
+
+
 ### 2.18 LISTADO DE RAMAS
 1. Listar las ramas con merge y las ramas sin merge.
  
