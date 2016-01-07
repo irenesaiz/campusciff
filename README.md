@@ -7,6 +7,8 @@ Clonar vuestro repositorio en local.
 
 `git clone git@github.com:irenesaiz/campusciff.git`
 
+![Clonar repositorio] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/22.png)
+
 ### 2.3 README
 Crear (si no lo habéis creado ya) en vuestro repositorio local un documento README.md.
 Notas: en este documento tendréis que ir poniendo los comandos que habéis tenido que utilizar durante todos los ejercicios y las explicaciones y capturas de pantalla que consideréis necesarias.
@@ -24,6 +26,8 @@ git commit -m "commit inicial"
 git push origin master
 ```
 
+
+
 ### 2.6 IGNORAR ARCHIVOS
 1. Crear en el repositorio local un fichero llamado privado.txt.
 2. Crear en el repositorio local una carpeta llamada privada.
@@ -37,6 +41,8 @@ cat .gitignore
 echo privada >> .gitignore
 cat .gitignore
 ```
+
+![Ignorar archivos] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/26.png)
 
 ### 2.8 AÑADIR FICHERO 1.TXT
 1. Añadir fichero 1.txt al repositorio local.
@@ -56,7 +62,8 @@ git tag v0.1
 ```
 git push --tag origin master
 ```
- 
+![Subir TAG] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/210.png)
+
 ### 2.11 CREAR UNA RAMA V0.2
 1. Crear una rama v0.2.
 2. Posiciona tu carpeta de trabajo en esta rama.
@@ -71,6 +78,8 @@ git checkout v0.2
 ```
 touch 2.txt
 ```
+![Crear rama y añadir fichero] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/212.png)
+
 ### 2.13 CREAR RAMA REMOTA V0.2
 1. Subir los cambios al repositorio remoto.
 ```
@@ -78,6 +87,8 @@ git add .
 git commit -m "Añadido 2.txt"
 git push origin v0.2
 ```
+
+![Crear rama remota] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/213.png)
 
 ### 2.14 MERGE DIRECTO
 1. Posicionarse en la rama master.
@@ -87,6 +98,8 @@ git push origin v0.2
 git checkout master
 git merge v0.2
 ```
+
+![MERGE Directo] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/214.png)
 
 ### 2.15 MERGE CON CONFLICTO
 1. En la rama master poner Hola en el fichero 1.txt y hacer commit.
@@ -119,6 +132,8 @@ git branch --merged
 git branch --no-merged
 
 ```
+
+![Listado ramas] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/218.png)
  
 ### 2.19 ARREGLAR CONFLICTO
 1. Arreglar el conflicto anterior y hacer un commit.
@@ -128,7 +143,8 @@ git add .
 git commit -m "Sin conflicto en 1.txt"
 git push origin master
 ```
- 
+
+![Solucionar conflico] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/219.png) 
  
 ### 2.20 BORRAR RAMA
 1. Crear un tag v0.2
@@ -145,6 +161,8 @@ git push
 1. Listar los distintos commits con sus ramas y sus tags.
 
 `git log --oneline --decorate --graph`
+
+![Listado cambios] (https://raw.githubusercontent.com/irenesaiz/campusciff/master/Imagenes/221.png)
  
 ### 2.22 CUENTA DE GITHUB
 1. Poner una foto en vuestro perfil de GitHub. __*REALIZADO*__
