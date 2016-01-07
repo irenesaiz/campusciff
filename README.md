@@ -136,7 +136,8 @@ git push origin master
 2. Borrar la rama v0.2
 ```
 git branch -d v0.2
-git push origin master
+git pull
+git push
 ``` 
 
 
